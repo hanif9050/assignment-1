@@ -29,7 +29,7 @@
     }
     
     .section-center {
-        max-width: 1200px;
+        max-width: 1170px;
         margin: 0 auto;
     }
     /* .font {
@@ -55,6 +55,7 @@
     
     ul {
         text-align: right;
+        padding: 20px;
     }
     
     .personal-info {
@@ -122,7 +123,7 @@
         background-color: #FFf;
         border-radius: 30px;
         padding: 10px;
-        margin-right: 20px;
+        margin-left: 50px;
         box-shadow: 5px 5px 10px dimgray;
     }
     
@@ -134,7 +135,7 @@
     
     .single-project {
         float: left;
-        width: 30%;
+        width: 25%;
     }
     
     .work {
@@ -142,15 +143,16 @@
     }
     
     .work-container {
-        padding: 0 500px;
+        /* padding: 0 300px; */
     }
     
     .work-img-conatainer {
         background-image: url("./images/Group_33094_1.png");
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         height: 200px;
-        width: 800px;
+        width: 700px;
         margin: 0 auto;
         position: relative;
     }
